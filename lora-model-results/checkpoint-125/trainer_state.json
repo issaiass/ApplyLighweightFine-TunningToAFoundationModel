@@ -1,0 +1,40 @@
+{
+  "best_metric": 0.34179773926734924,
+  "best_model_checkpoint": "./lora-model-results\\checkpoint-125",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 125,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.8,
+      "grad_norm": 0.34504571557044983,
+      "learning_rate": 0.00044642857142857147,
+      "loss": 0.6068,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.884,
+      "eval_f1": 0.8849206349206349,
+      "eval_loss": 0.34179773926734924,
+      "eval_precision": 0.8643410852713178,
+      "eval_recall": 0.9065040650406504,
+      "eval_runtime": 196.9498,
+      "eval_samples_per_second": 2.539,
+      "eval_steps_per_second": 0.635,
+      "step": 125
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 125,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 136962000617472.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

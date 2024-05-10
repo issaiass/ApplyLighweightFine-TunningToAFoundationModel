@@ -1,0 +1,40 @@
+{
+  "best_metric": 0.7126840949058533,
+  "best_model_checkpoint": "./foundation-model-results\\checkpoint-125",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 125,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.8,
+      "grad_norm": 19.137096405029297,
+      "learning_rate": 0.00044642857142857147,
+      "loss": 0.9004,
+      "step": 100
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.474,
+      "eval_f1": 0.6431478968792401,
+      "eval_loss": 0.7126840949058533,
+      "eval_precision": 0.48268839103869654,
+      "eval_recall": 0.9634146341463414,
+      "eval_runtime": 183.9216,
+      "eval_samples_per_second": 2.719,
+      "eval_steps_per_second": 0.68,
+      "step": 125
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 125,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 1,
+  "save_steps": 500,
+  "total_flos": 136488765947904.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
