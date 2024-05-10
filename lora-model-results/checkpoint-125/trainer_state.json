@@ -1,5 +1,5 @@
 {
-  "best_metric": 0.34179773926734924,
+  "best_metric": 0.39160284399986267,
   "best_model_checkpoint": "./lora-model-results\\checkpoint-125",
   "epoch": 1.0,
   "eval_steps": 500,
@@ -10,21 +10,21 @@
   "log_history": [
     {
       "epoch": 0.8,
-      "grad_norm": 0.34504571557044983,
+      "grad_norm": 1.1925073862075806,
       "learning_rate": 0.00044642857142857147,
-      "loss": 0.6068,
+      "loss": 1.1764,
       "step": 100
     },
     {
       "epoch": 1.0,
-      "eval_accuracy": 0.884,
-      "eval_f1": 0.8849206349206349,
-      "eval_loss": 0.34179773926734924,
-      "eval_precision": 0.8643410852713178,
-      "eval_recall": 0.9065040650406504,
-      "eval_runtime": 196.9498,
-      "eval_samples_per_second": 2.539,
-      "eval_steps_per_second": 0.635,
+      "eval_accuracy": 0.862,
+      "eval_f1": 0.8644400785854617,
+      "eval_loss": 0.39160284399986267,
+      "eval_precision": 0.8365019011406845,
+      "eval_recall": 0.8943089430894309,
+      "eval_runtime": 139.1387,
+      "eval_samples_per_second": 3.594,
+      "eval_steps_per_second": 0.898,
       "step": 125
     }
   ],

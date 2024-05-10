@@ -70,17 +70,17 @@ Our PEFT model may have already been saved to the folder issaiass/gpt2-lora.
 
 Below we provide results of the foundation model and the LoRA model.
 
-|  metric name  | GPT2      | GPT2-LoRA |
-| ---------- | --------- | --------- |
-| eval_loss            | 0.712684  | 0.341798  |
-| eval_accuracy        | 0.474     | 0.884     |
-| eval_f1              | 0.643148  | 0.884921  |
-| eval_precision       | 0.482688  | 0.864341  |
-| eval_recall          | 0.963415  | 0.906504  |
-| eval_runtime         | 184.8182  | 224.0936  |
-| eval_samples_per_second | 2.705  | 2.231     |
-| eval_steps_per_second | 0.676     | 0.558     |
-| epoch                | 1.0       | 1.0       |
+|    metric name      | GPT2       | GPT2-LoRA |
+|------------------------|------------|-----------|
+| eval_loss              | 8.165428   | 0.391603  |
+| eval_accuracy          | 0.492      | 0.862     |
+| eval_f1                | 0.659517   | 0.864440  |
+| eval_precision         | 0.492000   | 0.836502  |
+| eval_recall            | 1.000000   | 0.894309  |
+| eval_runtime           | 44.8370    | 140.7062  |
+| eval_samples_per_second| 11.152     | 3.554     |
+| eval_steps_per_second  | 2.788      | 0.888     |
+| epoch                  | not applicable | 1.0 |
 
 
 <p align="center"> </p>
